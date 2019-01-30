@@ -1,0 +1,5 @@
+package com.capgemini.accountservice.receiver;
+
+public class Receiver {
+
+}

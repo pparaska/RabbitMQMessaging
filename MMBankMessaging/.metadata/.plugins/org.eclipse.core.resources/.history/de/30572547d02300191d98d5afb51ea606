@@ -1,0 +1,25 @@
+package com.capgemini.transactionservice.sender;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sender {
+	
+	@Autowired
+	private RabbitMessagingTemplate template;
+	
+	@Bean
+	public Queue queue() {
+		return new Queue("updateBalance", false);
+	}
+	
+	/*
+	 * public void send(Transaction transaction) {
+	 * template.convertAndSend("updateBalance", transaction); }
+	 */
+	
+	public void send(Transaction transaction) {
+		template.convertAndSend("updateBalance", transaction);
+	}
+
+}

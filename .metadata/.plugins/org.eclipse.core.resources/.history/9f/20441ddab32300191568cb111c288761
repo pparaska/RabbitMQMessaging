@@ -1,0 +1,5 @@
+package com.cg.app.rabbitMQDemo.resource;
+
+public class Resource {
+
+}

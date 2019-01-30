@@ -1,0 +1,11 @@
+package com.cg.app.rabbitMQDemo.sender;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sender {
+
+   
+	//@GeneratedValue(strategy = GenerationType.AUTO)
+	private String message;
+
+}

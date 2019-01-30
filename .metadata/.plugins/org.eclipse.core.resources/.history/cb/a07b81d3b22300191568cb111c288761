@@ -1,0 +1,26 @@
+package com.cg.app.rabbitMQDemo.resource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SenderResource {
+
+	
+/*private CustomerService customerService;
+	
+	@Autowired
+	public CustomerController(CustomerService customerService){
+		this.customerService = customerService;
+	}
+	
+	@RequestMapping( path="/register", method = RequestMethod.POST)
+	public Customer register(@RequestBody Customer customer){
+		return customerService.register(customer);
+	}*/
+	
+	
+	@Autowired
+	public SenderResouce
+}
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.EnableRabbit"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.MessageListener"/>
+<fullyQualifiedTypeName name="com.capgemini.accountservice.resource.AccountResource"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.RabbitListener"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitMessagingTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.Queue"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.capgemini.transactionservice.sender.Sender"/>
+<fullyQualifiedTypeName name="com.capgemini.accountservice.app.entity.Transaction"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.capgemini.transactionservice.app.entity.Transaction"/>
+</qualifiedTypeNameHistroy>

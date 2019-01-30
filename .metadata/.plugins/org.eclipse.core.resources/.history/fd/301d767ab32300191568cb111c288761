@@ -1,0 +1,33 @@
+package com.cg.app.rabbitMQDemo.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cg.app.rabbitMQDemo.repository.SenderRepository;
+import com.cg.app.rabbitMQDemo.sender.Sender;
+
+@Service
+public class SenderServiceImpl implements SenderService {
+
+	private SenderRepository senderRespository;
+	private Sender sender;
+
+	@Autowired
+	public SenderServiceImpl(SenderRepository senderRespository, Sender sender) {
+		this.senderRespository = senderRespository;
+		this.sender = sender;
+	}
+
+	public Sender register(Sender sender) {
+		Optional<Sender> existingMessage = customerRespository.findByName(customer.getName());
+		if (existingMessage.isPresent()) {
+			throw new RuntimeException("is already exists");
+		} else {
+			senderRespository.save(sender);
+			sender.send(sender.getEmail());
+		}
+		return customer;
+	}
+}

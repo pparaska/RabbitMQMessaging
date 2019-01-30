@@ -1,0 +1,14 @@
+package com.cg.app.rabbitMQDemo.resource;
+
+@RestController
+public class Resource {
+    @Autowired
+    private Sender sender;
+ 
+    @GetMapping
+    public String send() {
+        sender.send("message sent");
+        return "Sent";
+ 
+    }
+}

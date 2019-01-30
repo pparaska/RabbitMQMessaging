@@ -1,0 +1,34 @@
+package com.cg.app.rabbitMQDemo.sender;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sender {
+
+	// @GeneratedValue(strategy = GenerationType.AUTO)
+	private String message;
+
+	public Sender() {
+		super();
+	}
+
+	public Sender(String message) {
+		super();
+		this.message = message;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	@Override
+	public String toString() {
+		return "Sender [message=" + message + "]";
+	}
+
+	
+}

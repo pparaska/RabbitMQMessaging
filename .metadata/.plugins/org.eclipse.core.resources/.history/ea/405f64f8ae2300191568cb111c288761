@@ -1,0 +1,7 @@
+package com.cg.app.rabbitMQDemo.service;
+
+public interface SenderService {
+
+		public Sender register(Sender sender);
+	}
+}

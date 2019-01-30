@@ -1,0 +1,7 @@
+package com.cg.app.rabbitMQDemo.resource;
+
+
+@RestController
+public class SenderResource {
+
+}

@@ -1,0 +1,13 @@
+package com.cg.app.rabbitMQDemo.service;
+
+import com.cg.app.rabbitMQDemo.sender.Sender;
+
+public class SenderServiceImpl implements SenderService{
+
+	@Override
+	public Sender register(Sender sender) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

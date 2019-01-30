@@ -1,0 +1,9 @@
+package com.cg.app.rabbitMQDemo.sender;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Sender {
+
+	
+}

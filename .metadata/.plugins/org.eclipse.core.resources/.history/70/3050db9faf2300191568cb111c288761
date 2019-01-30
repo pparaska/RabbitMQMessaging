@@ -1,0 +1,11 @@
+package com.cg.app.rabbitMQDemo.repository;
+
+import org.springframework.context.annotation.Lazy;
+
+@RepositoryRestResource
+@Lazy
+public interface SenderRepository extends JpaRepository <Customer,Long>{
+	Optional<Sender> findByName(@Param("name") String name);
+
+}
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.RabbitListener"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.jboss.logging.Param"/>
+<fullyQualifiedTypeName name="javax.sound.midi.Receiver"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.TopicExchange"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.Binding"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.BindingBuilder"/>
+<fullyQualifiedTypeName name="com.rabbitmq.client.ConnectionFactory"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.connection.ConnectionFactory"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter"/>
+<fullyQualifiedTypeName name="com.cg.app.rabbitMQDemoReceiver.receiver.Receiver"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="com.cg.app.rabbitMQDemo.repository.SenderRepository"/>
+<fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.cg.app.rabbitMQDemo.sender.Sender"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitMessagingTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.Queue"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+</qualifiedTypeNameHistroy>
